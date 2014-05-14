@@ -1,0 +1,5 @@
+.tree-container
+  .tree(data-id=tree._id.toString() class=treeHelper.getClass(tree.height) class=tree.isHealthy?'alive':'dead')
+    .height= tree.height
+    .deadtree= tree.isHealthy? 'Alive' : 'Dead'
+  .chop Chop

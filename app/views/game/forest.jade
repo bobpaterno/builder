@@ -1,0 +1,14 @@
+.stats-container
+  table
+    thead
+      tr
+        th Cash
+        th Wood
+    tbody
+      tr
+        td#cash= '$'+user.cash
+        td#wood= user.wood
+  button#sell Sell Wood
+
+each tree in trees
+  include tree
